@@ -1,0 +1,15 @@
+name: flatly
+description: A new Flutter project.
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  cloud_firestore: ^4.0.0  # Or any other compatible version
+  firebase_core: ^2.0.0    # Ensure firebase_core is also included
+
+flutter:
+  uses-material-design: true
